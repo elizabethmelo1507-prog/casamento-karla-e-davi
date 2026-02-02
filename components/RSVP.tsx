@@ -5,13 +5,13 @@ export const RSVP: React.FC = () => {
   const [step, setStep] = useState<'form' | 'success'>('form');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [adultsCount, setAdultsCount] = useState<number>(1);
-  
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
 
     const formData = new FormData(e.currentTarget);
-    
+
     // Calculate values based on requirements
     const totalAdults = parseInt(formData.get('guests') as string, 10) || 1;
     const companionsCount = totalAdults - 1;
@@ -154,7 +154,7 @@ export const RSVP: React.FC = () => {
                   </label>
                   <input
                     id={`companion_${index}`}
-                    name="companion_name" 
+                    name="companion_name"
                     required
                     type="text"
                     className="w-full px-0 py-2 bg-transparent border-b border-gray-200 focus:border-black outline-none transition-all font-serif text-base placeholder:font-sans placeholder:text-sm"
@@ -180,9 +180,9 @@ export const RSVP: React.FC = () => {
         </div>
 
         <div className="pt-6">
-           <Button type="submit" fullWidth variant="primary" disabled={isSubmitting}>
+          <Button type="submit" fullWidth variant="primary" disabled={isSubmitting}>
             {isSubmitting ? 'Enviando...' : 'Confirmar Presença'}
-           </Button>
+          </Button>
         </div>
       </form>
     </div>

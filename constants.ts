@@ -8,7 +8,7 @@ export const WEDDING_EVENT: EventDetails = {
   date: "18 de Abril",
   time: "18:30",
   location: "A Capela Eventos",
-  address: "R. Várzea, 155 - Flores, Manaus - AM",
+  address: "R. Visc. de Ouro Preto - Flores, Manaus - AM, 69058-080",
   description: "Celebração solene seguida de festa.",
   mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.124544506347!2d-60.005862099999995!3d-3.0613495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1ba47e96948d%3A0x7f60ada72f0c79e1!2sA%20Capela%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1770038757126!5m2!1spt-BR!2sbr",
   googleCalendarLink: GOOGLE_CALENDAR_LINK
