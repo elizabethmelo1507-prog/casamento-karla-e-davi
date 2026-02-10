@@ -1,16 +1,16 @@
 import { EventDetails, Gift, TimelineItem } from './types';
 
 // Generated Google Calendar Link for April 18, 2025 (Assuming upcoming year) 18:30 - 02:00
-const GOOGLE_CALENDAR_LINK = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Casamento+Karla+%26+Davi&dates=20250418T183000/20250419T020000&details=Vamos+celebrar+nossa+uni%C3%A3o+com+muito+amor%2C+m%C3%BAsica+e+alegria.&location=A+Capela+Eventos%2C+Manaus+-+AM";
+const GOOGLE_CALENDAR_LINK = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Casamento+Karla+%26+Davi&dates=20250418T183000/20250419T020000&details=Vamos+celebrar+nossa+uni%C3%A3o+com+muito+amor%2C+m%C3%BAsica+e+alegria.&location=Villa+Condotti%2C+Manaus+-+AM";
 
 export const WEDDING_EVENT: EventDetails = {
   title: "A Cerimônia & Recepção",
   date: "18 de Abril",
   time: "18:30",
-  location: "A Capela Eventos",
+  location: "Villa Condotti",
   address: "R. Visc. de Ouro Preto - Flores, Manaus - AM, 69058-080",
   description: "Celebração solene seguida de festa.",
-  mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.124544506347!2d-60.005862099999995!3d-3.0613495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1ba47e96948d%3A0x7f60ada72f0c79e1!2sA%20Capela%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1770038757126!5m2!1spt-BR!2sbr",
+  mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.087529910964!2d-60.0152593!3d-3.0712865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1b8b42ae6707%3A0xed6b6a687531b0f0!2sVilla%20condotti%20-%20Buffet%20%26%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1770663519789!5m2!1spt-BR!2sbr",
   googleCalendarLink: GOOGLE_CALENDAR_LINK
 };
 
@@ -36,7 +36,7 @@ export const TIMELINE_ITEMS: TimelineItem[] = [
     title: "A Cerimônia",
     date: "18 de Abril",
     time: "18:30",
-    location: "A Capela Eventos",
+    location: "Villa Condotti",
     description: "A celebração do nosso amor.",
     icon: 'Ring'
   },
@@ -44,7 +44,7 @@ export const TIMELINE_ITEMS: TimelineItem[] = [
     title: "A Recepção",
     date: "18 de Abril",
     time: "Logo após",
-    location: "A Capela Eventos",
+    location: "Villa Condotti",
     description: "Jantar e festa para comemorarmos juntos.",
     icon: 'Music'
   }
