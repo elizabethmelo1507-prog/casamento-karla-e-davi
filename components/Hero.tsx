@@ -24,7 +24,7 @@ export const Hero: React.FC<HeroProps> = ({ onImageLoad }) => {
       {/* Mobile: Static Image */}
       <img
         ref={mobileImgRef}
-        src="/images/hero-mobile.png"
+        src="/images/hero-mobile.jpg"
         alt="Casamento Karla e Davi"
         className="absolute inset-0 w-full h-full object-cover md:hidden opacity-90"
         fetchPriority="high"
@@ -37,7 +37,7 @@ export const Hero: React.FC<HeroProps> = ({ onImageLoad }) => {
       {/* Desktop: Static Image */}
       <img
         ref={desktopImgRef}
-        src="/images/hero-desktop.png"
+        src="/images/hero-desktop.jpg"
         alt="Casamento Karla e Davi"
         className="hidden md:block absolute inset-0 w-full h-full object-cover opacity-90"
         fetchPriority="high"
