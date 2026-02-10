@@ -130,6 +130,54 @@ export const GIFTS: Gift[] = [
     category: 'Home',
     iconName: 'Sun',
     link: 'https://pay.kirvano.com/3fb26877-c4ee-41a4-a220-6c485b49c5e0'
+  },
+  {
+    id: '11',
+    name: 'Kit Mestre Churrasqueiro Premium',
+    price: 'R$ 300,00',
+    category: 'Home',
+    iconName: 'Utensils',
+    link: 'https://pay.kirvano.com/a5ee6648-9450-4726-94a8-90d87259f739'
+  },
+  {
+    id: '12',
+    name: 'Adega de Charutos Climatizada pro Davi',
+    price: 'R$ 400,00',
+    category: 'Home',
+    iconName: 'Archive',
+    link: 'https://pay.kirvano.com/038de1b0-2843-4dea-9376-7676588683f4'
+  },
+  {
+    id: '13',
+    name: 'Degustação de Cervejas Artesanais',
+    price: 'R$ 350,00',
+    category: 'Experience',
+    iconName: 'Beer',
+    link: 'https://pay.kirvano.com/8fd830bb-65e0-45c8-bfb2-688f0709ee74'
+  },
+  {
+    id: '14',
+    name: 'Kit Gin Tropical Premium',
+    price: 'R$ 370,00',
+    category: 'Home',
+    iconName: 'Martini',
+    link: 'https://pay.kirvano.com/7ea67d9e-08be-4dc7-b9ed-e85309992ced'
+  },
+  {
+    id: '15',
+    name: 'Assinatura Netflix Premium + Pipoca Gourmet',
+    price: 'R$ 420,00',
+    category: 'Home',
+    iconName: 'Tv',
+    link: 'https://pay.kirvano.com/3d244e80-342d-4fbe-9dae-131bc6cd50ca'
+  },
+  {
+    id: '16',
+    name: 'Smart TV 80p para o Davi',
+    price: 'R$ 500,00',
+    category: 'Home',
+    iconName: 'Monitor',
+    link: 'https://pay.kirvano.com/dd4c2f1d-57a5-4b12-8cc5-ba05e50ac937'
   }
 ];
 
