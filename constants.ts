@@ -8,7 +8,7 @@ export const WEDDING_EVENT: EventDetails = {
   date: "18 de Abril",
   time: "18:30",
   location: "Villa Condotti",
-  address: "R. Visc. de Ouro Preto - Flores, Manaus - AM, 69058-080",
+  address: "R. Santo Antenodoro, 500 - Flores, Manaus - AM, 69058-400",
   description: "Celebração solene seguida de festa.",
   mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.087529910964!2d-60.0152593!3d-3.0712865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1b8b42ae6707%3A0xed6b6a687531b0f0!2sVilla%20condotti%20-%20Buffet%20%26%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1770663519789!5m2!1spt-BR!2sbr",
   googleCalendarLink: GOOGLE_CALENDAR_LINK
