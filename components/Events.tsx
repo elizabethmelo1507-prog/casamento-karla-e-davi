@@ -8,11 +8,11 @@ interface EventsProps {
 }
 
 export const Events: React.FC<EventsProps> = ({ onRsvpClick }) => {
-  
+
   const getIcon = (type?: string) => {
-    switch(type) {
+    switch (type) {
       case 'Glass': return <GlassWater size={24} />;
-      case 'Ring': return <Heart size={24} />; 
+      case 'Ring': return <Heart size={24} />;
       case 'Music': return <Music size={24} />;
       default: return <Heart size={24} />;
     }
@@ -26,16 +26,16 @@ export const Events: React.FC<EventsProps> = ({ onRsvpClick }) => {
           <h2 className="text-4xl md:text-5xl font-serif text-black">Eventos</h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="flex flex-wrap justify-center gap-8">
           {TIMELINE_ITEMS.map((item, index) => (
-            <div key={index} className="flex flex-col items-center text-center p-8 border border-gray-100 bg-gray-50/50 rounded-sm hover:shadow-lg transition-all duration-300 group">
-              
+            <div key={index} className="flex flex-col items-center text-center p-8 border border-gray-100 bg-gray-50/50 rounded-sm hover:shadow-lg transition-all duration-300 group w-full md:w-[calc(50%-1rem)] lg:w-[calc(33%-1rem)] max-w-sm">
+
               <div className="mb-6 p-4 rounded-full bg-white border border-gray-200 text-gray-800 group-hover:scale-110 transition-transform duration-500 shadow-sm">
                 {getIcon(item.icon)}
               </div>
 
               <h3 className="font-serif text-2xl text-black mb-2">{item.title}</h3>
-              
+
               <div className="space-y-1 mb-6">
                 <p className="font-sans text-sm font-bold uppercase tracking-widest text-wedding-600">
                   {item.date}
@@ -61,11 +61,11 @@ export const Events: React.FC<EventsProps> = ({ onRsvpClick }) => {
           <Button fullWidth onClick={onRsvpClick}>
             Confirmar Presença na Cerimônia
           </Button>
-          
+
           {WEDDING_EVENT.googleCalendarLink && (
-            <Button 
-              fullWidth 
-              variant="outline" 
+            <Button
+              fullWidth
+              variant="outline"
               onClick={() => window.open(WEDDING_EVENT.googleCalendarLink, '_blank')}
               className="flex items-center justify-center gap-2"
             >
