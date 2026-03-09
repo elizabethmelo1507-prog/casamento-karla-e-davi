@@ -14,24 +14,7 @@ export const WEDDING_EVENT: EventDetails = {
   googleCalendarLink: GOOGLE_CALENDAR_LINK
 };
 
-export const WELCOME_EVENT: EventDetails = {
-  title: "Welcome Drinks",
-  date: "17 de Abril",
-  time: "11:00",
-  location: "Local a definir",
-  address: "Manaus, AM",
-  description: "Um brinde de boas-vindas para começarmos as comemorações.",
-};
-
 export const TIMELINE_ITEMS: TimelineItem[] = [
-  {
-    title: "Welcome Drinks",
-    date: "17 de Abril",
-    time: "11:00",
-    location: "Local a definir",
-    description: "Um brinde especial para recepcionar nossos convidados.",
-    icon: 'Glass'
-  },
   {
     title: "A Cerimônia",
     date: "18 de Abril",
