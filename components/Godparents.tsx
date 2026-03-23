@@ -51,7 +51,7 @@ export const Godparents: React.FC = () => {
             </li>
             <li className="flex gap-3">
               <span className="text-black font-bold">•</span>
-              <span>Traje dos Padrinhos: Terno preto, camisa branca e gravata tradicional preta.</span>
+              <span>Traje dos Padrinhos: Terno preto, camisa branca e gravata borboleta preta.</span>
             </li>
             <li className="flex gap-3">
               <span className="text-black font-bold">•</span>
