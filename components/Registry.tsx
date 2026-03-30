@@ -22,7 +22,7 @@ const IconMap: Record<string, LucideIcon> = {
   Monitor: Monitor,
 };
 
-const PIX_KEY = '00020126580014BR.GOV.BCB.PIX01364c006e4f-fa2c-4d8c-abf9-7664570f4e5e5204000053039865802BR5919Karla Gentil Vieira6009SAO PAULO62140510Roo0HwCB1H6304B9E0';
+const PIX_KEY = '00020101021126850014br.gov.bcb.pix01362142871b-6da9-499f-a6fb-bc04f3608f1f0223Casamento Karla e Davi 5204000053039865802BR5919Karla Gentil Vieira6009SAO PAULO61080131010062230519CasamentoKarlaeDavi6304EA4C';
 const PIX_BENEFICIARY = 'Karla Gentil Vieira';
 
 type ModalStep = 'choose' | 'pix';
